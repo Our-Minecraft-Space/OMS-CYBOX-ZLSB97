@@ -1,0 +1,14 @@
+{
+	"file_path": "C:\\Users\\leegm\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\OMS-CYBOX_Q12S_BP_1.1.0\\bridge\\config.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "e31ce544_68e3_4f11_822b_506cf88aaf8d",
+	"file_version": 0,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"formatVersion": "1.16.0",
+			"prefix": "car"
+		}
+	}
+}

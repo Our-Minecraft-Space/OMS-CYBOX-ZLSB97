@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "OMS-CYBOX ZLSB97 : RP",
+        "description": "Made by iMasterProX",
+        "uuid": "2280bb57-a366-4163-896d-5682f99b5c1a",
+        "version": [1, 0, 0]
+    },
+    "modules": [
+        {
+            "description": "OMS-CYBOX ZLSB97 : RP",
+            "type": "resources",
+            "uuid": "cc59858a-6f57-44da-aee0-51d5501fbd98",
+            "version": [1, 0, 0]
+        }
+    ]
+}

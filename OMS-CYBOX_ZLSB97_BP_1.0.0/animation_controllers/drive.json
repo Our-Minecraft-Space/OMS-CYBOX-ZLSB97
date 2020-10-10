@@ -1,0 +1,30 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.drive": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"drive": "query.is_moving"
+						}
+					],
+					"on_entry": [
+						"/tag @s remove drive"
+					]
+				},
+				"drive": {
+					"transitions": [
+						{
+							"default": "!query.is_moving"
+						}
+					],
+					"on_entry": [
+						"/tag @s add drive"
+					]
+				}
+			}
+		}
+	}
+}

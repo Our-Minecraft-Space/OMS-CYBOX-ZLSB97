@@ -1,0 +1,23 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "OMS-CYBOX ZLSB97 : BP",
+        "description": "Made by Our Minecraft Space (OMS)",
+        "uuid": "1f84873a-a27c-4f9e-8181-de4f5d92b030",
+        "version": [1, 0, 0]
+    },
+    "modules": [
+        {
+            "description": "OMS-CYBOX ZLSB97 : BP",
+            "type": "data",
+            "uuid": "d7272519-204a-43de-8edb-bb6e99827851",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "2280bb57-a366-4163-896d-5682f99b5c1a",
+            "version": [1, 0, 0]
+        }
+    ]
+}

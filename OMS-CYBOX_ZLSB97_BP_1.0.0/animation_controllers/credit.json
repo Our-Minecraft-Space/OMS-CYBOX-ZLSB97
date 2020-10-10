@@ -1,0 +1,26 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.credit": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"a": "query.is_moving"
+						}
+					],
+					"on_entry": [
+						"/tp @s[tag=riding] ~ ~ ~"
+					]
+				},
+				"a": {
+					"on_entry": [
+						"/function join"
+					]
+				}
+			}
+		}
+	}
+}

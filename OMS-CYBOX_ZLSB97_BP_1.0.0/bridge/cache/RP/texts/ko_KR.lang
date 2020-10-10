@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\leegm\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\OMS-CYBOX_Q12S_RP_1.1.0\\texts\\ko_KR.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "b3a94a03_6aae_4f23_92d7_6196c6df0b78",
+	"file_version": 25,
+	"cache_content": "#\npack.name=OMS-CYBOX Q12X\npack.description=Made by Our Minecraft Space (OMS)\n\naccessibility.disableTTS=텍스트 음성 변환 비활성화\naccessibility.enableTTS=텍스트 음성 변환 사용\n\nitem.spawn_egg.entity.car:q12x.name=CYBOX Q12X\naction.hint.exit.car:q12x=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.\nentity.car:q12x.name=CYBOX Q12X\n\nspeed.slow=속도 : 느림\nspeed.normal=속도 : 보통\nspeed.fast=속도 : 빠름\n\nline.1=§b§l----------\nline.2=§bOMS-CYBOX_Q12S ADDON\nline.3=우리들의 마인크래프트 공간(우마공)에서 제작\nline.4=line.4\nline.5=line.5\nline.6=§b§l----------\n#인포를 빈 칸으로 둘려면 §l 을 적으세요"
+}

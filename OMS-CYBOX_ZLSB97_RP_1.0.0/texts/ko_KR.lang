@@ -1,0 +1,15 @@
+##bridge-file-version: #23
+
+pack.name=우마공-CYBOX ZLSB97
+pack.description=우마공 BE 컨텐츠팀 제작
+
+accessibility.disableTTS=텍스트 음성 변환 비활성화
+accessibility.enableTTS=텍스트 음성 변환 사용
+
+item.spawn_egg.entity.car:zlsb97.name=우마공-CYBOX ZLSB97
+action.hint.exit.car:zlsb97=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:zlsb97.name=우마공-CYBOX ZLSB97
+
+item.spawn_egg.entity.car:zlsb97_saki.name=니카이도 사키의 바이크
+action.hint.exit.car:zlsb97_saki=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:zlsb97_saki.name=니카이도 사키의 바이크

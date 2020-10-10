@@ -1,0 +1,583 @@
+{
+	"file_path": "C:\\Users\\leegm\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\OMS-CYBOX_Q12S_BP_1.1.0\\animation_controllers\\speedmod.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "da785f7d_0248_4979_9de8_45212c2d75b6",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.speedmod": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"slow": "query.mark_variant == 0"
+										},
+										{
+											"normal": "query.mark_variant == 1"
+										},
+										{
+											"fast": "query.mark_variant == 2"
+										}
+									]
+								},
+								"slow": {
+									"on_entry": [
+										"/scoreboard players set @s speedmod 0"
+									],
+									"transitions": [
+										{
+											"default": "query.mark_variant != 0"
+										}
+									]
+								},
+								"normal": {
+									"on_entry": [
+										"/scoreboard players set @s speedmod 1"
+									],
+									"transitions": [
+										{
+											"default": "query.mark_variant != 1"
+										}
+									]
+								},
+								"fast": {
+									"on_entry": [
+										"/scoreboard players set @s speedmod 2"
+									],
+									"transitions": [
+										{
+											"default": "query.mark_variant != 2"
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.speedmod": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"slow": "query.mark_variant == 0"
+											},
+											{
+												"normal": "query.mark_variant == 1"
+											},
+											{
+												"fast": "query.mark_variant == 2"
+											}
+										]
+									},
+									"slow": {
+										"on_entry": [
+											"/scoreboard players set @s speedmod 0"
+										],
+										"transitions": [
+											{
+												"default": "query.mark_variant != 0"
+											}
+										]
+									},
+									"normal": {
+										"on_entry": [
+											"/scoreboard players set @s speedmod 1"
+										],
+										"transitions": [
+											{
+												"default": "query.mark_variant != 1"
+											}
+										]
+									},
+									"fast": {
+										"on_entry": [
+											"/scoreboard players set @s speedmod 2"
+										],
+										"transitions": [
+											{
+												"default": "query.mark_variant != 2"
+											}
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.speedmod",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"slow": "query.mark_variant == 0"
+												},
+												{
+													"normal": "query.mark_variant == 1"
+												},
+												{
+													"fast": "query.mark_variant == 2"
+												}
+											]
+										},
+										"slow": {
+											"on_entry": [
+												"/scoreboard players set @s speedmod 0"
+											],
+											"transitions": [
+												{
+													"default": "query.mark_variant != 0"
+												}
+											]
+										},
+										"normal": {
+											"on_entry": [
+												"/scoreboard players set @s speedmod 1"
+											],
+											"transitions": [
+												{
+													"default": "query.mark_variant != 1"
+												}
+											]
+										},
+										"fast": {
+											"on_entry": [
+												"/scoreboard players set @s speedmod 2"
+											],
+											"transitions": [
+												{
+													"default": "query.mark_variant != 2"
+												}
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"slow": "query.mark_variant == 0"
+													},
+													{
+														"normal": "query.mark_variant == 1"
+													},
+													{
+														"fast": "query.mark_variant == 2"
+													}
+												]
+											},
+											"slow": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 0"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 0"
+													}
+												]
+											},
+											"normal": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 1"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 1"
+													}
+												]
+											},
+											"fast": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 2"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 2"
+													}
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"slow": "query.mark_variant == 0"
+														},
+														{
+															"normal": "query.mark_variant == 1"
+														},
+														{
+															"fast": "query.mark_variant == 2"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"slow": "query.mark_variant == 0"
+															},
+															{
+																"normal": "query.mark_variant == 1"
+															},
+															{
+																"fast": "query.mark_variant == 2"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"slow": "query.mark_variant == 0"
+														}
+													},
+													{
+														"open": [
+															{
+																"slow": "query.mark_variant == 0"
+															},
+															{
+																"normal": "query.mark_variant == 1"
+															},
+															{
+																"fast": "query.mark_variant == 2"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"normal": "query.mark_variant == 1"
+														}
+													},
+													{
+														"open": [
+															{
+																"slow": "query.mark_variant == 0"
+															},
+															{
+																"normal": "query.mark_variant == 1"
+															},
+															{
+																"fast": "query.mark_variant == 2"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"fast": "query.mark_variant == 2"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"slow": "query.mark_variant == 0"
+													},
+													{
+														"normal": "query.mark_variant == 1"
+													},
+													{
+														"fast": "query.mark_variant == 2"
+													}
+												]
+											},
+											"slow": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 0"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 0"
+													}
+												]
+											},
+											"normal": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 1"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 1"
+													}
+												]
+											},
+											"fast": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 2"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 2"
+													}
+												]
+											}
+										},
+										"key": "slow",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/scoreboard players set @s speedmod 0"
+													],
+													"transitions": [
+														{
+															"default": "query.mark_variant != 0"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/scoreboard players set @s speedmod 0"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/scoreboard players set @s speedmod 0"
+													],
+													"transitions": [
+														{
+															"default": "query.mark_variant != 0"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.mark_variant != 0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.mark_variant != 0"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"slow": "query.mark_variant == 0"
+													},
+													{
+														"normal": "query.mark_variant == 1"
+													},
+													{
+														"fast": "query.mark_variant == 2"
+													}
+												]
+											},
+											"slow": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 0"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 0"
+													}
+												]
+											},
+											"normal": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 1"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 1"
+													}
+												]
+											},
+											"fast": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 2"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 2"
+													}
+												]
+											}
+										},
+										"key": "normal",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/scoreboard players set @s speedmod 1"
+													],
+													"transitions": [
+														{
+															"default": "query.mark_variant != 1"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/scoreboard players set @s speedmod 1"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/scoreboard players set @s speedmod 1"
+													],
+													"transitions": [
+														{
+															"default": "query.mark_variant != 1"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.mark_variant != 1"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.mark_variant != 1"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"slow": "query.mark_variant == 0"
+													},
+													{
+														"normal": "query.mark_variant == 1"
+													},
+													{
+														"fast": "query.mark_variant == 2"
+													}
+												]
+											},
+											"slow": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 0"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 0"
+													}
+												]
+											},
+											"normal": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 1"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 1"
+													}
+												]
+											},
+											"fast": {
+												"on_entry": [
+													"/scoreboard players set @s speedmod 2"
+												],
+												"transitions": [
+													{
+														"default": "query.mark_variant != 2"
+													}
+												]
+											}
+										},
+										"key": "fast",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/scoreboard players set @s speedmod 2"
+													],
+													"transitions": [
+														{
+															"default": "query.mark_variant != 2"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/scoreboard players set @s speedmod 2"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/scoreboard players set @s speedmod 2"
+													],
+													"transitions": [
+														{
+															"default": "query.mark_variant != 2"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.mark_variant != 2"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.mark_variant != 2"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+    "zlsb97.spawn": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_spawn",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "zlsb97.door_close": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_door_close",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+	    "zlsb97.drive": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_drive",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+	    "zlsb97.saddled": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_saddled",
+                "load_on_low_memory": true
+            }
+        ]
+    }
+}

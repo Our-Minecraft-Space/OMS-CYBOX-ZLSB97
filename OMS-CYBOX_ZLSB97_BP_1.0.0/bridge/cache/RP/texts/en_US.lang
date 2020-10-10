@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\leegm\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\OMS-CYBOX_Q12S_RP_1.1.0\\texts\\en_US.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "25107236_464f_4308_8bf7_3408eced0250",
+	"file_version": 27,
+	"cache_content": "#\npack.name=OMS-CYBOX Q12X\npack.description=Made by Our Minecraft Space (OMS)\n\naccessibility.disableTTS=Text To Speech disabled\naccessibility.enableTTS=Text To Speech enabled\n\nitem.spawn_egg.entity.car:q12x.name=CYBOX Q12X\naction.hint.exit.car:q12x=§oDo not to engage in text messaging while vehicles.\nentity.car:q12x.name=CYBOX Q12x\n\nspeed.slow=Speed : Slow\nspeed.normal=Speed : Normal\nspeed.fast=Speed : Faster\n\nline.1=§b§l----------\nline.2=§bOMS-CYBOX_Q12S ADDON\nline.3=Made by Our Minecraft Space (OMS)\nline.4=line.4\nline.5=line.5\nline.6=§b§l----------"
+}

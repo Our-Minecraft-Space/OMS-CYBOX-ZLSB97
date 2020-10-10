@@ -1,0 +1,17 @@
+//bridge-file-version: #13
+{
+	"resource_pack_name": {},
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"zlsb97": {
+			"textures": [
+				"textures/items/zlsb97"
+			]
+		},
+		"zlsb97_saki": {
+			"textures": [
+				"textures/items/zlsb97_saki"
+			]
+		}
+	}
+}

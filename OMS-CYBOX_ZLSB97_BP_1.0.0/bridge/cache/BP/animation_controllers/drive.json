@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\leegm\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\OMS-CYBOX_Q12S_BP_1.1.0\\animation_controllers\\drive.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "34657eb7_f861_4090_bb0b_9cc3c3d88400",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.drive": {
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"drive": "query.is_moving"
+										}
+									],
+									"on_entry": [
+										"/tag @s remove drive"
+									]
+								},
+								"drive": {
+									"transitions": [
+										{
+											"default": "!query.is_moving"
+										}
+									],
+									"on_entry": [
+										"/tag @s add drive"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.drive": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"drive": "query.is_moving"
+											}
+										],
+										"on_entry": [
+											"/tag @s remove drive"
+										]
+									},
+									"drive": {
+										"transitions": [
+											{
+												"default": "!query.is_moving"
+											}
+										],
+										"on_entry": [
+											"/tag @s add drive"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.drive",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"drive": "query.is_moving"
+												}
+											],
+											"on_entry": [
+												"/tag @s remove drive"
+											]
+										},
+										"drive": {
+											"transitions": [
+												{
+													"default": "!query.is_moving"
+												}
+											],
+											"on_entry": [
+												"/tag @s add drive"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"drive": "query.is_moving"
+													}
+												],
+												"on_entry": [
+													"/tag @s remove drive"
+												]
+											},
+											"drive": {
+												"transitions": [
+													{
+														"default": "!query.is_moving"
+													}
+												],
+												"on_entry": [
+													"/tag @s add drive"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"drive": "query.is_moving"
+														}
+													],
+													"on_entry": [
+														"/tag @s remove drive"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"drive": "query.is_moving"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"drive": "query.is_moving"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"drive": "query.is_moving"
+														}
+													],
+													"on_entry": [
+														"/tag @s remove drive"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/tag @s remove drive"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"drive": "query.is_moving"
+													}
+												],
+												"on_entry": [
+													"/tag @s remove drive"
+												]
+											},
+											"drive": {
+												"transitions": [
+													{
+														"default": "!query.is_moving"
+													}
+												],
+												"on_entry": [
+													"/tag @s add drive"
+												]
+											}
+										},
+										"key": "drive",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "!query.is_moving"
+														}
+													],
+													"on_entry": [
+														"/tag @s add drive"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "!query.is_moving"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.is_moving"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "!query.is_moving"
+														}
+													],
+													"on_entry": [
+														"/tag @s add drive"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/tag @s add drive"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

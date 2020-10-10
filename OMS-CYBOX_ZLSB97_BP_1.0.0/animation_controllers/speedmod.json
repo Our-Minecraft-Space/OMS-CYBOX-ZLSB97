@@ -1,0 +1,54 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.speedmod": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"slow": "query.mark_variant == 0"
+						},
+						{
+							"normal": "query.mark_variant == 1"
+						},
+						{
+							"fast": "query.mark_variant == 2"
+						}
+					]
+				},
+				"slow": {
+					"on_entry": [
+						"/scoreboard players set @s speedmod 0"
+					],
+					"transitions": [
+						{
+							"default": "query.mark_variant != 0"
+						}
+					]
+				},
+				"normal": {
+					"on_entry": [
+						"/scoreboard players set @s speedmod 1"
+					],
+					"transitions": [
+						{
+							"default": "query.mark_variant != 1"
+						}
+					]
+				},
+				"fast": {
+					"on_entry": [
+						"/scoreboard players set @s speedmod 2"
+					],
+					"transitions": [
+						{
+							"default": "query.mark_variant != 2"
+						}
+					]
+				}
+			}
+		}
+	}
+}

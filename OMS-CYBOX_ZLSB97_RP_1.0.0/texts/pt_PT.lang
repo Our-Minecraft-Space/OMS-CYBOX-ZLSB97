@@ -1,0 +1,15 @@
+##bridge-file-version: #23
+
+pack.name=OMS-CYBOX ZLSB97
+pack.description=Made by Our Minecraft Space (OMS)
+
+accessibility.disableTTS=Texto para fala desativado
+accessibility.enableTTS=Texto para fala ativado
+
+item.spawn_egg.entity.car:zlsb97.name=OMS-CYBOX ZLSB97
+action.hint.exit.car:zlsb97=§oNão se envolva em mensagens de texto enquanto veículos.
+entity.car:zlsb97.name=OMS-CYBOX ZLSB97
+
+item.spawn_egg.entity.car:zlsb97_saki.name=Saki Nikaido's Bike
+action.hint.exit.car:zlsb97_saki=§oNão se envolva em mensagens de texto enquanto veículos.
+entity.car:zlsb97_saki.name=Saki Nikaido's Bike

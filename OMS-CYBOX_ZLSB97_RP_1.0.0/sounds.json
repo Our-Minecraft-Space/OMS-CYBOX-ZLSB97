@@ -1,0 +1,32 @@
+{
+	"entity_sounds": {
+		"entities": {
+	   		"car:zlsb97": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "zlsb97.spawn",
+				"step": "zlsb97.drive",
+				"ride": "zlsb97.door_close",
+				"saddle": "zlsb97.saddled"
+				}
+			},
+			"car:zlsb97_saki": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "zlsb97.spawn",
+				"step": "zlsb97.drive",
+				"ride": "zlsb97.door_close",
+				"saddle": "zlsb97.saddled"
+				}
+			}
+      }
+   }
+}

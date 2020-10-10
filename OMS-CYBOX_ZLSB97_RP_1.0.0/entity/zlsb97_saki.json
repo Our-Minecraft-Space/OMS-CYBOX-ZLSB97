@@ -1,0 +1,56 @@
+//bridge-file-version: #130
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "car:zlsb97_saki",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"default": "textures/entity/zlsb97/zlsb97_saki",
+				"undyed": "textures/entity/zlsb97/zlsb97_saki"
+			},
+			"geometry": {
+				"default": "geometry.zlsb97_saki"
+			},
+			"render_controllers": [
+				"controller.render.zlsb97_color"
+			],
+			"spawn_egg": {
+				"texture": "zlsb97_saki"
+			},
+			"animations": {
+				"move": "animation.zlsb97.move",
+				"setup": "animation.zlsb97.spawn",
+				"turn": "animation.zlsb97.turn",
+				"saddle": "animation.zlsb97.saddle",
+				"tamed": "animation.zlsb97.tame",
+				"chest": "animation.zlsb97.chest",
+				"general": "controller.animation.zlsb97.general",
+				"normal": "animation.zlsb97.bag1"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"ride": "query.has_rider"
+					},
+					{
+						"saddle": "query.is_saddled"
+					},
+					{
+						"chest": "query.is_chested"
+					},
+					{
+						"tamed": "query.is_tamed"
+					},
+					"setup",
+					"general"
+				]
+			}
+		}
+	}
+}
